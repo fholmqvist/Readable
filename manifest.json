@@ -1,0 +1,15 @@
+{
+        "version": "1.0",
+        "manifest_version": 2,
+        "name": "Readable", 
+        "author": "Fredrik Holmqvist",
+        "homepage_url": "https://www.fredrikholmqvist.com/",
+        "description": "Makes minimalist HTML sites more readable.",
+        "browser_action": {
+            "default_popup": "readable.html"
+        },
+        "permissions": [
+            "tabs",
+            "activeTab"
+         ]      
+}
